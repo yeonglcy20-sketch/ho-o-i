@@ -1,0 +1,51 @@
+
+body{
+margin:0;
+font-family:'Segoe UI',sans-serif;
+background:linear-gradient(180deg,#fffdf3,#fff7c7);
+color:#5f4b00;
+}
+.container{
+max-width:700px;
+margin:20px auto;
+padding:16px;
+}
+.header{
+text-align:center;
+background:rgba(255,255,255,.85);
+border:3px solid #ffe27a;
+border-radius:24px;
+padding:20px;
+box-shadow:0 8px 20px rgba(255,210,80,.25);
+}
+.mochi{font-size:48px;}
+h1{margin:8px 0;}
+#searchInput{
+width:100%;
+margin-top:15px;
+padding:14px;
+border-radius:16px;
+border:2px solid #ffe27a;
+box-sizing:border-box;
+}
+.card-list{
+display:flex;
+flex-direction:column;
+gap:10px;
+margin-top:15px;
+}
+.item{
+background:#ffffff;
+border:2px solid #ffe27a;
+border-radius:18px;
+padding:12px;
+}
+.item-title{
+font-size:18px;
+font-weight:bold;
+margin-bottom:8px;
+color:#d49a00;
+}
+.item-row{
+padding:4px 0;
+}
