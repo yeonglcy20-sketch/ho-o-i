@@ -7,16 +7,34 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="container">
-  <div class="header">
-    <div class="mochi">🍡</div>
-    <h1>호오이의 찹쌀떡 명부</h1>
-    <p>말랑말랑한 업보 기록소</p>
-  </div>
+<div class="floating floating-1">🍡</div>
+<div class="floating floating-2">🤍</div>
+<div class="floating floating-3">🍡</div>
+<div class="floating floating-4">💛</div>
+<div class="floating floating-5">🍡</div>
 
-  <input id="searchInput" type="text" placeholder="🍡 명부 확인하기...">
+<main class="container">
+  <header class="hero">
+    <div class="mascot-wrap" aria-label="찹쌀떡 캐릭터 일러스트 영역">
+      <div class="mascot">
+        <div class="mascot-face">
+          <span class="eye left"></span>
+          <span class="eye right"></span>
+          <span class="cheek left"></span>
+          <span class="cheek right"></span>
+          <span class="mouth"></span>
+        </div>
+        <div class="bean bean-left"></div>
+        <div class="bean bean-right"></div>
+      </div>
+    </div>
+    <h1>🍡 호오이의 찹쌀떡 명부 🍡</h1>
+    <p>노랑노랑 말랑말랑, 앙금이 확인 기록소</p>
+  </header>
+
+  <input id="searchInput" type="text" placeholder="앙금이 인증하기...">
   <section id="list" class="card-list"></section>
-</div>
+</main>
 <script src="script.js"></script>
 </body>
 </html>
